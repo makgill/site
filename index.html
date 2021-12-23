@@ -1,0 +1,178 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>On commercial forks of FOSS projects</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://drewdevault.com/blog/index.xml">
+  <link rel="icon" type="image/png" href="/avatar.png">
+  
+<style>html{font-family:sans-serif;color:#080808}body{max-width:920px;margin:0 auto;padding:1rem}h1{margin-top:0;font-size:1.5rem}h1 small{display:block;font-size:1rem}.index{display:flex;flex-direction:row}.index .article-list{flex-grow:1}.index .article-list .article{margin-bottom:1rem}.index .article-list .date{display:block;color:#333}.index aside{width:40%}.index aside img{display:block;margin:0 auto 1rem;border-radius:5px}.index aside dt{font-size:.9rem}.index aside dd{margin-left:0}.index aside dd:not(:last-child){margin-bottom:.5rem}@media(max-width:640px){.index aside{display:none}}article{margin:0 auto;max-width:720px;line-height:1.3}article img,article video,article iframe{display:block!important;margin:0 auto!important;max-width:90%}@media(max-width:640px){article img,article video,article iframe{max-width:calc(100% - 2rem)}}article .comment{margin:2rem auto 0;max-width:80%;color:#333}.footnotes{font-size:.85rem}footer{margin-top:2rem;text-align:center;font-size:.8rem;color:#333}.float-img{float:right;display:inline;padding-left:1rem}@media(max-width:640px){.float-img{display:block;float:none;padding-left:inherit}}pre{background-color:#eee;padding:.25rem 1rem;margin:0 -1rem;max-width:100%;overflow-x:auto}pre .cp{color:#800}pre .k{color:#008}pre .kt,pre .kd,pre .kc{color:#44f}pre .s{color:#484;font-style:italic}pre .cm,pre .c1{color:#333;font-style:italic}pre .gi{color:green}pre .gd{color:red}pre .gu{color:blue}.webring{margin-top:2rem}.webring h2{font-size:1.2rem}.webring .articles{display:flex}@media(max-width:640px){.webring .articles{flex-direction:column}}.webring .title{margin:0}.webring .article{flex:1;display:flex;flex-direction:column;background:#eee;padding:.5rem;margin:0 .5rem}@media(max-width:640px){.webring .article{margin:.5rem 0}}.webring .article:first-child{margin-left:0}.webring .article:last-child{margin-right:0}.webring .summary{font-size:.8rem;flex:1}.webring .attribution{float:right;font-size:.8rem;color:#555;line-height:3}.webring .date{color:#000}summary{cursor:pointer;background-color:#eee;padding:.25rem 1rem;margin:0 -1rem}details[open]{border-bottom:1rem solid #eee;margin:0 -1rem 1rem;padding:0 1rem}.text-center{text-align:center}blockquote{border-left:5px solid #bbb;background-color:#eee;padding:0 1rem;margin-left:calc(-1rem - 5px);margin-right:-1rem}blockquote blockquote{margin-right:0;margin-left:0}dl{display:grid;grid-template-columns:auto 1fr;grid-gap:.2rem 1rem}dl dt{font-weight:700;grid-column-start:1}dl dd{grid-column-start:2;margin:0}.alert{padding:.5rem;border:1px solid transparent;margin-bottom:1rem}.alert.alert-danger{background:#f8d7da;color:#721c24;border-color:#f5c6cb}.alert.alert-info{background:#d1ecf1;color:#0c5460;border-color:#bee5eb}</style>
+</head>
+
+
+<body><h1>
+  On commercial forks of FOSS projects
+  <small>
+    <span class="date">December 18, 2021</span>
+    on
+    <span class="site"><a href="https://drewdevault.com/">Drew DeVault's blog</a></span>
+  </small>
+</h1>
+
+<main>
+  <article>
+    <p>The gaming and live streaming industry is a lucrative and rapidly growing
+commercial sector with a unique understanding of copyright and intellectual
+property, and many parties with conflicting interests and access to different
+economic resources.</p>
+<p>The understanding of intellectual property among gamers and the companies which
+serve them differs substantailly from that of free software, and literacy in the
+values and philosophy of free software among this community is very low. It is
+then of little surprise that we see abuse of free software from this community,
+namely in the recent (and illegal) commercial forks of a popular FOSS streaming
+platform called <a href="https://obsproject.com">OBS Studio</a> by companies like TikTok.</p>
+<p>These forks are in violation of the software license of OBS Studio, which is
+both illegal and unethical. But the “why” behind this is interesting for a
+number of reasons. For one, there <em>is</em> a legitimate means through which
+commercial entities can repurpose free software projects, up to and including
+reskinning and rebranding and selling them. The gaming community also has an
+unusual perspective on copyright which colors their understanding of the
+situation. Consider, for instance, the modding community.</p>
+<p>Game modifications (mods) exist in a grey area with respect to copyright.
+Modding in general is entirely legal, though some game companies do not
+understand this (or choose not to understand this) and take action against them.
+Modders also often use assets of dubious provenance in their work. Many people
+believe that, because this is all given away for free, the use is legitimate,
+and though they are morally correct, they are not legally correct. Additionally,
+since most mods are free (as in beer),<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> the currency their authors receive
+for their work is credit and renown. Authors of these mods tend to defend their
+work fiercely against its “theft”. Modders also tend to be younger, and grew up
+after the internet revolution and the commoditization of software.</p>
+<p>On the other hand, the conditions under which free software can be “stolen” are
+quite different, because the redistribution, reuse, and modification of free
+software, including for commercial purposes, is an explicit part of the social
+and legal contract of FOSS. This freedom comes, however, with some conditions.
+The nature of these conditions varies from liberal to strict. For instance,
+software distributed with the MIT license requires little more than crediting
+the original authors in any derivative works. On the other end of this spectrum,
+copyleft licenses like the GPL family require that any derivative works of the
+original project are <em>also</em> released under the GPL license. OBS Studio uses the
+GPL license, and it is in this respect that all of these forks have made a legal
+misstep.</p>
+<p>If a company like TikTok wants to use OBS Studio to develop its own streaming
+software, they are <em>allowed to do this</em>, though the degree to which they are
+<em>encouraged</em> to do this is the subject of some debate.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> However, they must
+release the source code for their modifications under the same GPL license. They
+can repurpose and rebrand OBS Studio only if their repurposed and rebranded
+version is made available to the free software community under the same terms.
+Then OBS Studio can take any improvements they like from the TikTok version and
+incorporate them into the original OBS Studio software, so that everyone shares
+the benefit — TikTok, OBS users, StreamLabs, and StreamElements alike, as
+well as anyone else who wants in on the game.</p>
+<p>This happens fairly often with free software and often forms a healthy
+relationship by establishing an incentive and a pool of economic resources to
+provide for the upkeep and development of that software. Many developers of a
+project like this are often hired by such companies to do their work. Sometimes,
+this relationship is viewed more negatively, but that’s a subject for another
+post. It works best when all of the players view each other as collaborators,
+not competitors.</p>
+<p>That’s not what happening here, though. What we’re seeing instead is the brazen
+theft of free software by corporations who believe that, because their legal
+budget exceeds the resources available to the maintainers, might makes right.</p>
+<p>Free software is designed to be used commercially, but you have to do it
+correctly. This is a resource which is made available to companies who want to
+exploit it, but they must do so according to the terms of the licenses. It’s not
+a free lunch.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>I think that this is likely the case specifically to dis-incentivize legal action by the gaming companies (who would likely be wrong, but have a lot of money) or from the owners of dubiously repurposed assets (who would likely be right, and also have a lot of money). One notable exception is the Black Mesa mod, which received an explicit blessing from Valve for its sale. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">↩︎</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>For my part, I’m in the “this is encouraged” camp. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+  </article>
+</main>
+
+<section class="comment">
+  
+
+  
+  <p>
+  Have a comment on one of my posts? Start a discussion in my public inbox by
+  sending an email to
+  <a href="mailto:~sircmpwn/public-inbox@lists.sr.ht">~sircmpwn/public-inbox@lists.sr.ht</a>
+  [<a href="https://man.sr.ht/lists.sr.ht/etiquette.md">mailing list etiquette</a>]
+  
+</p></section>
+
+<section class="webring">
+  <h2>
+    Articles from blogs I read
+  </h2>
+  <section class="articles">
+    
+    <div class="article">
+      <h4 class="title">
+        <a href="https://danluu.com/cgroup-throttling/" target="_blank" rel="noopener">The container throttling problem</a>
+      </h4>
+      <p class="summary">
+
+This is an excerpt from an internal document David Mackey and I co-authored in April 2019. The document is excerpted since much of the original doc was about comparing possible approaches to increasing efficency at Twitter, which is mostly information tha…</p>
+      <small class="source">
+        via <a href="https://danluu.com/atom/index.xml">danluu.com</a>
+      </small>
+      <small class="date">December 18, 2021</small>
+    </div>
+    
+    <div class="article">
+      <h4 class="title">
+        <a href="https://emersion.fr/blog/2021/status-update-36/" target="_blank" rel="noopener">Status update, December 2021</a>
+      </h4>
+      <p class="summary">Hi! Last month has been pretty action-packed, so we got a lot to cover in this
+status update. Let’s settle in, grab a cup of tea, and see what’s in store.
+Today I released the long-awaited wlroots 0.15.0. This is a pretty massive
+release with lots of new fea…</p>
+      <small class="source">
+        via <a href="https://emersion.fr/blog/">emersion</a>
+      </small>
+      <small class="date">December 17, 2021</small>
+    </div>
+    
+    <div class="article">
+      <h4 class="title">
+        <a href="https://sourcehut.org/blog/2021-12-15-whats-cooking-december-2021/" target="_blank" rel="noopener">What's cooking on SourceHut? December 2021</a>
+      </h4>
+      <p class="summary">Hello and happy holidays! I hope that our 26,246 member userbase is enjoying the
+cold weather (or the warm weather, in the south). Remember to remind the people
+you work with on SourceHut, and others besides, that you care about them. We
+have many new users …</p>
+      <small class="source">
+        via <a href="https://sourcehut.org/blog/">Blogs on Sourcehut</a>
+      </small>
+      <small class="date">December 15, 2021</small>
+    </div>
+    
+  </section>
+</section>
+
+
+<footer>
+  The content for this site is
+  <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.
+  The <a href="https://git.sr.ht/~sircmpwn/drewdevault.com">code for this site</a>
+  is <a href="https://opensource.org/licenses/MIT">MIT</a>.
+  <div style="color: transparent">
+    This is a honeypot:
+    <a href="mailto:b62c5a48@cmpwn.com" style="color: transparent">
+      b62c5a48@cmpwn.com
+    </a>
+    Please do not use it unless you are a spambot.
+  </div>
+</footer>
+
+</body></html>
